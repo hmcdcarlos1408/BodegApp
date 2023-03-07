@@ -7,6 +7,7 @@ const Example = () => {
         <Heading size="lg" fontWeight="600" color="coolGray.800" _dark={{
         color: "warmGray.50"
       }}>
+        
           Welcome
         </Heading>
         <Heading mt="1" _dark={{

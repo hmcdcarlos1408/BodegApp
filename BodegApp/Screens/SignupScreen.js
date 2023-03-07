@@ -35,6 +35,7 @@ const Example = () => {
     </Center>;
 };
 
+
     export default () => {
         return (
           <NativeBaseProvider>

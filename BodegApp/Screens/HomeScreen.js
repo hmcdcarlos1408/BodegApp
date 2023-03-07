@@ -6,4 +6,5 @@ const HomeScreen=()=>{
         <Text>simon aqui esta el home</Text>
     </View>)
 }
+
 export default HomeScreen;

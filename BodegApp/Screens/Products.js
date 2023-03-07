@@ -11,6 +11,7 @@ const BuyProducts = ({route, navigation, direccion}) => {
 
     // ----estados para guardar los valores que usará el componente
 
+    
     // estado para la url de la imagen
     const [ imageUrl, setImageUrl ] = useState('https://elektra.vtexassets.com/arquivos/ids/2142420-1200-auto?v=637185023602830000&width=1200&height=auto&aspect=true')
     // estado de tipo arreglo para guardar los productos inicializado en vacio = []

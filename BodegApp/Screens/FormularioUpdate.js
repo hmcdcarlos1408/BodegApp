@@ -12,6 +12,7 @@ import {
   } from 'react-native'
   import axios from 'axios'
 
+  
 const FormularioUpdate = ({ producto, setModalUpdateVisible,setProductos, direccionIp }) => {
 
 
