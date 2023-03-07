@@ -7,6 +7,7 @@ import FormularioUpdate from "./FormularioUpdate";
 
 // nombre del componente (pantalla)
 const BuyProducts = ({route, navigation, direccion}) => {
+    
 
     // ----estados para guardar los valores que usará el componente
 
