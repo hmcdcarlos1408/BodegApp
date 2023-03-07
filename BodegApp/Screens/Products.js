@@ -15,7 +15,7 @@ const BuyProducts = ({route, navigation, direccion}) => {
     // estado de tipo arreglo para guardar los productos inicializado en vacio = []
     const [ productos, setProductos ] = useState([])
     // estado de tipo arreglo para guardar los productos inicializado en vacio = []
-    const [ producto, setPruducto ] = useState({})
+    const [ producto, setPruducto ] = useState({}) 
     // estado de tipo booleano true o false, para abrir o cerrar el MODAL(pantalla flotante) de agregar producto  
     const [modalVisible, setModalVisible] = useState(false)
      // estado de tipo booleano true o false, para abrir o cerrar el MODAL(pantalla flotante) de editar producto  
