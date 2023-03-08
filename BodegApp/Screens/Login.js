@@ -1,14 +1,20 @@
 import React from "react";
-import {ImageBackground, StyleSheet, Text, View} from 'react-native';
+import {ImageBackground, StyleSheet, Button, View} from 'react-native';
+import { Link ,NativeBaseProvider} from 'native-base';
 
 const image = {uri: 'https://reactjs.org/logo-og.png'};
-const HomeScreen=()=>{
+const Login=()=>{
     return(
+        <NativeBaseProvider>
         <View style={styles.container}>
         <ImageBackground source={image} resizeMode="cover" style={styles.image}>
-          <Text style={styles.text}>Inside</Text>
+        <Button/>
+        <Link href="https://nativebase.io">
+        Click here to open documentation.
+      </Link>
         </ImageBackground>
       </View>
+      </NativeBaseProvider>
     )
 }
 const styles = StyleSheet.create({
@@ -20,7 +26,7 @@ const styles = StyleSheet.create({
       justifyContent: 'center',
     },
     text: {
-      color: 'white',
+      color: 'Red',
       fontSize: 42,
       lineHeight: 84,
       fontWeight: 'bold',
@@ -29,4 +35,4 @@ const styles = StyleSheet.create({
     },
   });
 
-export default HomeScreen;
+export default Login;

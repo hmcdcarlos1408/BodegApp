@@ -1,12 +1,13 @@
 import React from "react";
-import {ImageBackground, StyleSheet, Text, View} from 'react-native';
+import {ImageBackground, StyleSheet, Button, View} from 'react-native';
 
 const image = {uri: 'https://reactjs.org/logo-og.png'};
-const HomeScreen=()=>{
+const Login=()=>{
     return(
         <View style={styles.container}>
         <ImageBackground source={image} resizeMode="cover" style={styles.image}>
-          <Text style={styles.text}>Inside</Text>
+ 
+          
         </ImageBackground>
       </View>
     )
@@ -20,7 +21,7 @@ const styles = StyleSheet.create({
       justifyContent: 'center',
     },
     text: {
-      color: 'white',
+      color: '#446784',
       fontSize: 42,
       lineHeight: 84,
       fontWeight: 'bold',
@@ -29,4 +30,4 @@ const styles = StyleSheet.create({
     },
   });
 
-export default HomeScreen;
+export default Login;
