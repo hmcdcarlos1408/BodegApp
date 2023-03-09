@@ -1,8 +1,6 @@
 import * as React from "react";
 import { Box, Text, Heading, VStack, FormControl, Input, Link, Button, HStack, Center, NativeBaseProvider } from "native-base";
-import SignupScreen from './SignupScreen';
-import { createStackNavigator } from '@react-navigation/stack';
-import { NavigationContainer } from '@react-navigation/native';
+
 
 
 const Example = () => {
